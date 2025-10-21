@@ -1,0 +1,7 @@
+services:
+type: wet
+name: instagram_ropl-hnt
+env: pythor
+plan: free
+buildCommand: pip install -r requirements.txt 
+startCommand: Dython main.py
